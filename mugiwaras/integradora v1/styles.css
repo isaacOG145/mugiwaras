@@ -1,0 +1,30 @@
+
+#btnAgregarDocente {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+  #tablaRegistros {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #tablaRegistros th, #tablaRegistros td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #tablaRegistros th {
+    background-color: #5784E6;
+  }
+  
+  #tablaRegistros tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

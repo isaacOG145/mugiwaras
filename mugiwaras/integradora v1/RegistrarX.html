@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inicio de Sesión y Navbar</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="estilos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo" onclick="toggleMenu()">
+            <img src="img/fotos/barras.jpg" alt="Logo">
+        </div>
+        <div class="navbar-links" id="navbar-links">
+            <!-- Agrega más opciones aquí -->
+            
+                <a href="#">Página principal</a>
+                <a href="#">Prueba</a>
+               
+            
+        </div>
+        <div class="navbar-exit">
+            <a href="#" class="btn">Salir</a>
+        </div>
+        <div class="navbar-aesthetic-logo">
+            <img src="img/icons/icono.jpg" alt="Logo estético">
+        </div>
+    </nav>
+
+   
+    <div class="login-box">
+        <h2>Registrar Docentes</h2>
+        <br>
+        <form id="FormLogin" name="FormLogin" >
+            <div class="user-box">
+                <input type="text" id="name" name="name" required>
+                <label>Ingresa Nombres</label>
+            </div>
+            <div class="user-box">
+                <input type="text" id="lastName" name="lastName" required>
+                <label>Ingresa los Apellidos</label>
+            </div>
+            <div class="user-box">
+                <input type="text" id="matricula" name="matricula" required>
+                <label>Ingresa Matricula</label>
+            </div>
+
+            <div class="user-box">
+                <input type="email" id="email" name="email" required>
+                <label>Ingresa Correo institucional</label>
+            </div>
+            <a href="verX.html" id="botonInicio" name="botonInicio" class="registar">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Registrar
+            </a>
+        </form>
+    </div>
+
+    
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
